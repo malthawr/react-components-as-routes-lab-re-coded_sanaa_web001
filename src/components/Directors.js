@@ -3,7 +3,7 @@ import { directors } from '../data';
 
 const Directors = () => {
   let looping = () =>{
-  
+
      return directors.map((number) =><div> {number.name}
      <ul><li>{number.movies}</li></ul>
      </div>)
